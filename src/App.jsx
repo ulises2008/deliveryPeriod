@@ -26,54 +26,6 @@ export function App() {
   }, []);
 
 
- 
-
-
-// const itemsPerPage = 3;
-// const totalItems = 20; //7 páginas * 3 elementos por página
-
-// const Pagination = () => {
-//   const [currentPage, setCurrentPage] = useState(1);
-
-//   const totalPages = Math.ceil(totalItems / itemsPerPage);
-
-//   const renderItems = () => {
-//     const startIndex = (currentPage - 1) * itemsPerPage;
-//     const endIndex = startIndex + itemsPerPage;
-
-//     const items = [];
-//     for (let i = startIndex; i < endIndex && i < totalItems; i++) {
-//       items.push(<div key={i}>Elemento {i + 1}</div>);
-//     }
-
-//     return items;
-//   };
-
-//   const handlePageChange = (newPage) => {
-//     if (newPage >= 1 && newPage <= totalPages) {
-//       setCurrentPage(newPage);
-//     }
-//   };
-
-//   const renderPaginationNumbers = () => {
-//     const numbers = [];
-//     for (let i = 1; i <= totalPages; i++) {
-//       numbers.push(
-//         <div
-//           key={i}
-//           className={`pagination-number ${i === currentPage ? 'active' : ''}`}
-//           onClick={() => handlePageChange(i)}
-//         >
-//           {i}
-//         </div>
-//       );
-//     }
-//     return numbers;
-//   };
-
-
-  
-
 
   return (
     <>

@@ -1,19 +1,7 @@
 import React, { useState } from 'react'
-import Pagination from './Pagination';
+import Pagination from '@mui/material/Pagination'
 
-export const Pagination = (page, setPage, maximo) => {
-
-  const [page, setPage] = useState(1)
-
-  const nextPage = () => {
-    setPage(page - 1);
-    setPage(page - 1)
-  }
-
-  const proverviousPage = () => {
-    setPage(page + 1);
-    setPage(page  +1)
-  }
+export const Pagination = (page) => {
 
 
 
