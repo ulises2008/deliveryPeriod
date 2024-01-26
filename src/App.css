@@ -1,0 +1,62 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+
+.main-container {
+  margin: 30px ;
+  padding: 0px 7px;
+  border: 1px solid #9a9494;
+  height: 370px;
+  border-radius: 7px;
+
+}
+.main-container .table {
+  height: 200px;
+}
+.página{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: blue;
+}
+
+.header-nav  {
+  background-color: #e25aa9;
+  justify-content: space-between;
+  color: #f5f5f5;
+  
+}
+
+.data-of-periodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.data-of-periodo input {
+  width: 170px;
+  height: 25px;
+}
+.data-of-periodo button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 1px gray;
+  color: gray;  
+  padding: 8px 7px;
+  width: 65px;
+}
+.header-nav button {
+  color: white;
+}
+.header-nav button p {
+ text-transform: none;
+}
