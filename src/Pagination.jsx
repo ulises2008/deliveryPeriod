@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
 import Pagination from '@mui/material/Pagination'
 
-export const Pagination = (page) => {
+export const Pagination = (props) => {
+
+const {page,setPage,maximo}= props
 
 
-
-
-  const handleChange = (e, p) => {
-    console.log(e, p)
-    setPage(p)
+  const handleChange = (newPage) => {
+    setPage(newPage)
   }
   return (
     <div>
-              <Pagination count={7} b onchange ={handleChange} onClick = {nextPage}></Pagination>
+              <Pagination count={maximo} onchange ={handleChange}></Pagination>
 
     </div>
   )
